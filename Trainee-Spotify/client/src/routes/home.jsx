@@ -6,7 +6,7 @@ export const HomePage = () => {
 
   const getRandomMusic = async () => {
     try {
-      const res = await api.get('api/songs/')
+      const res = await api.get('api/songs/songs/random')
       userDispatch(
         {
           type: 'SET_CURRENT_TRACK',

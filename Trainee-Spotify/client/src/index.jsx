@@ -5,8 +5,8 @@ import { UserProvider } from './context/userContext';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { HomePage } from './routes/home';
 import { ArtistsPage } from './routes/artists';
-import { PlaylistPage } from './routes/playlist';
 import App from './App';
+import { AuthPage } from './routes/auth';
 
 const router = createBrowserRouter([
   {
@@ -22,8 +22,8 @@ const router = createBrowserRouter([
         element: <ArtistsPage />
       },
       {
-        path: '/albums',
-        element: <PlaylistPage />
+        path: '/auth',
+        element: <AuthPage />
       }
     ]
   }

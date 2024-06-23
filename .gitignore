@@ -2,8 +2,12 @@
 
 # dependencies
 /node_modules/*
-Trainee-Spotify/api/node_modules
-Trainee-Spotify/api/node_modules/*
+/Trainee-Spotify/api/node_modules
+/Trainee-Spotify/api/node_modules/*
+/Trainee-Spotify/client/node_modules/
+/Trainee-Spotify/client/node_modules/*
+/Trainee-Spotify/client/node_modules/.cache/*
+
 /.pnp
 .pnp.js
 
